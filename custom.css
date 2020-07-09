@@ -70,7 +70,7 @@ h2{
 /***** Buttons *****/
 #submitButton, input.submitButton, .custom_submitButton  {
 	    background-image: none !important;
-       margin: 20px;
+      float:left;
 color: #fff !important;
     background-color: #4f81bd !important;
     border-color: #4f81bd !important;
@@ -136,9 +136,14 @@ color: #fff;
 .custom_dropDownItemClose              { padding:14px 6px 0px 0px }
 .custom_dropDownItemCloseIcon          { }
 .custom_brandDropDownCurrentSelectedContainer  { border:1px solid #ddd }
-
+div#paySelectionControl {
+    margin-top: 10px;
+}
+#paySelection > p.grid_4.custom_labelColumn {
+	width:100%
+}
 /* activate drop down instead of slider */
-.custom_choosePaymentSelection         { width:2px }  /* 1: slider, 2: DropDown, 3: Simple Html DropDown*/
+.custom_choosePaymentSelection         { width:3px }  /* 1: slider, 2: DropDown, 3: Simple Html DropDown*/
 
 /* if you want to change the arrow on the right of the drop down, you can do it like this*/
 /*.custom_brandDropDownSelectorIcon             { background: url( http://upload.wikimedia.org/wikipedia/commons/6/60/Arrow_Down_Icon_Bordered_Orange_V2.png)  no-repeat right}*/
