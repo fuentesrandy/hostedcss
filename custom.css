@@ -23,7 +23,9 @@
 	    box-shadow: 0 0 20px rgba(194,202,202,.6);
 }
 
-h2, h3 {
+h1, h2, h3 {
+	font-size: 1.2em;
+	   text-transform: uppercase;
     color: #4f81bd;
 }
 /***** Format *****/
@@ -104,6 +106,8 @@ color: #fff;
 
 /*labels*/
 .custom_label{
+	    font-size: 15;
+    font-weight: 400;
 	
 }
 /*****DropDown*****/
