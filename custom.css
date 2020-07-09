@@ -1,22 +1,45 @@
+/*Overrides*/
+* {
+    margin: 0;
+    font-family: Avenir Light,Arial,sans-serif;
+    font-size: 15;
+    font-weight: 400;
+    line-height: 1.38889;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+}
+.dataBox {
+    padding: 0px 0em 1.6em 0;
+    margin: 0px 0px 5px 0px;
+	background-color: #fff !important;
+	background-image:none;
+}
 .container_12.clearfix {
     max-width: 333px;
     margin: auto;
 
+    padding: 10px;
 	    box-shadow: 0 0 20px rgba(194,202,202,.6);
+}
+
+h2, h3 {
+    color: #4f81bd;
 }
 /***** Format *****/
 .custom_input         { width:98.0%;  }
 .custom_label   { color: #333 }
 /*.custom_customerDetails { display:none }*/
-.custom_payment                     { display:inline; float: left; padding-left: 1%; padding-right: 1%; width:95.0% }
+.custom_payment                     {  }
 .custom_paySelection .custom_input  { width:56.333%; }
 .custom_maxWidth                    { width:200px}
 .custom_input input                 { margin-bottom:10px }
 .custom_brandInputContainer         { margin-left:33.333%}
 
 /**** Misc ****/
-.custom_dataBox       { background:  url(/hpp/resource/image/paper.png); padding: 0px 1em 1.6em 0; 
-    margin: 0px 0px 5px 0px;  margin-left:10px; margin-top: 10px }
+/*
+.custom_dataBox       { background:  url(https://test.ppipe.net/hpp/resource/image/paper.png); padding: 0px 1em 1.6em 0; 
+    margin: 0px 0px 5px 0px;  margin-left:10px; margin-top: 10px }*/
 
 /***** Color *****/
 .custom_body                            { background: transparent }
@@ -28,6 +51,7 @@
 
 /***** Buttons *****/
 #submitButton, input.submitButton, .custom_submitButton  {
+	    background-image: none !important;
        margin: 20px;
 color: #fff !important;
     background-color: #4f81bd !important;
@@ -60,25 +84,28 @@ color: #fff;
  }
 
 /***** Img-Replacement *****/
-/*
-.custom_info, .custom_info em.custom_image                         { background: url(/hpp/resource/image/info_brown.png) no-repeat top left; width:16px; height:16px }
-.custom_selectionSlider, .custom_selectionSlider em.custom_image   { background: url(/hpp/resource/image/tree.png) no-repeat top left; width:20px; height:18px }
-.custom_visaImg, .custom_visaImg em.custom_image                   { background: url(/hpp/resource/image/visa.gif) no-repeat top left}
-.custom_masterImg, .custom_masterImg em.custom_image       { background: url(/hpp/resource/image/master.gif) no-repeat top left}
-.custom_amexImg, .custom_amexImg em.custom_image                   { background: url(/hpp/resource/image/amex.gif) no-repeat top left}
-.custom_soloImg, .custom_soloImg em.custom_image                   { background: url(/hpp/resource/image/solo.gif) no-repeat top left}
-.custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(/hpp/resource/image/maestro.gif) no-repeat top left}
-*/
+.custom_info, .custom_info em.custom_image                         { background: url(https://test.ppipe.net/hpp/resource/image/info_brown.png) no-repeat top left; width:16px; height:16px }
+.custom_selectionSlider, .custom_selectionSlider em.custom_image   { background: url(https://test.ppipe.net/hpp/resource/image/tree.png) no-repeat top left; width:20px; height:18px }
+.custom_visaImg, .custom_visaImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/visa.gif) no-repeat top left}
+.custom_masterImg, .custom_masterImg em.custom_image       { background: url(https://test.ppipe.net/hpp/resource/image/master.gif) no-repeat top left}
+.custom_amexImg, .custom_amexImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/amex.gif) no-repeat top left}
+.custom_soloImg, .custom_soloImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/solo.gif) no-repeat top left}
+.custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(https://test.ppipe.net/hpp/resource/image/maestro.gif) no-repeat top left}
+
 /***** Tooltip ****/
 .custom_tooltip                            { border: 1px solid green; background-color: yellow }
 
 /****** Dialog ******/
 .custom_ui-dialog                      { padding-bottom:25px; padding-right:0px } 
-.custom_ui-icon-closethick             { background: url(/hpp/resource/image/close.gif) no-repeat top left; padding:5px }
-.custom_ui-icon-gripsmall-diagonal-se  { background: url(/hpp/resource/image/resize.gif) no-repeat top left }
+.custom_ui-icon-closethick             { background: url(https://test.ppipe.net/hpp/resource/image/close.gif) no-repeat top left; padding:5px }
+.custom_ui-icon-gripsmall-diagonal-se  { background: url(https://test.ppipe.net/hpp/resource/image/resize.gif) no-repeat top left }
 .custom_ui-dialog-content              { padding: 0.5em 1em 0.3em }
 .custom_ui-dialog .ui-dialog-titlebar  { border-bottom:1px solid green; margin-bottom:10px; background:#ccc }
 
+/*labels*/
+.custom_label{
+	
+}
 /*****DropDown*****/
 .custom_brandDropDownContainer         { background:white; border:1px solid green }
 .custom_dropDownItem                   { border-bottom:1px dotted green}
@@ -89,3 +116,14 @@ color: #fff;
 .custom_dropDownItemClose              { padding:14px 6px 0px 0px }
 .custom_dropDownItemCloseIcon          { }
 .custom_brandDropDownCurrentSelectedContainer  { border:1px solid #ddd }
+
+/* activate drop down instead of slider */
+.custom_choosePaymentSelection         { width:2px }  /* 1: slider, 2: DropDown, 3: Simple Html DropDown*/
+
+/* if you want to change the arrow on the right of the drop down, you can do it like this*/
+/*.custom_brandDropDownSelectorIcon             { background: url( http://upload.wikimedia.org/wikipedia/commons/6/60/Arrow_Down_Icon_Bordered_Orange_V2.png)  no-repeat right}*/
+
+.custom_visa_chaseImg, .custom_visa_chaseImg em.custom_image               { background: url(https://test.ppipe.net/hpp/resource/image/chase.gif) no-repeat bottom center}
+.custom_vpayImg, .custom_vpayImg em.custom_image                           { background: url(https://test.ppipe.net/hpp/resource/image/vpay.gif) no-repeat bottom center}
+.custom_visa_electronImg, .custom_visa_electronImg em.custom_image         { background: url(https://test.ppipe.net/hpp/resource/image/visaElectron.gif) no-repeat bottom center}
+
