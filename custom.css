@@ -122,12 +122,12 @@ color: #fff;
 .custom_tooltip                            { border: 1px solid black; background-color: black; color:white }
 
 /****** Dialog ******/
-.custom_ui-dialog                      { padding-bottom:25px; padding-right:0px } 
+.custom_ui-dialog                      { padding:0px !important} 
 .custom_ui-icon-closethick             { background: url(https://test.ppipe.net/hpp/resource/image/close.gif) no-repeat top left; padding:5px }
 .custom_ui-icon-gripsmall-diagonal-se  { background: url(https://test.ppipe.net/hpp/resource/image/resize.gif) no-repeat top left }
 .custom_ui-dialog-content              { padding: 0.5em 1em 0.3em }
-.custom_ui-dialog .ui-dialog-titlebar  { border-bottom:1px solid green; margin-bottom:10px; background:#ccc }
-
+.custom_ui-dialog .ui-dialog-titlebar  { border-bottom:1px solid #ccc;border-radius: 0;}
+.ui-dialog .ui-dialog-content > p{ padding: 0.5em 1em 0.3em }
 /*labels*/
 .custom_label{
 	    font-size: 15px !important;
@@ -135,6 +135,7 @@ color: #fff;
 	
 }
 /*****DropDown*****/
+/*
 .custom_brandDropDownContainer         { background:white; border:1px solid green }
 .custom_dropDownItem                   { border-bottom:1px dotted green}
 .custom_dropDownItemHover              { background: lightgreen}         
@@ -144,6 +145,7 @@ color: #fff;
 .custom_dropDownItemClose              { padding:14px 6px 0px 0px }
 .custom_dropDownItemCloseIcon          { }
 .custom_brandDropDownCurrentSelectedContainer  { border:1px solid #ddd }
+*/
 div#paySelectionControl {
     margin-top: 10px;
 }
