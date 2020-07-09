@@ -1,1 +1,59 @@
 
+/***** Format *****/
+.custom_input         { width:98.0% }
+.custom_contactDetails, .custom_DeliveryDetails, .custom_customerDetails { display:inline; float: left; position: relative; padding-left: 1%;
+                                                  padding-right: 1%; width:46.0% }
+.custom_payment                     { display:inline; float: left; padding-left: 1%; padding-right: 1%; width:95.0% }
+.custom_paySelection .custom_input  { width:56.333%; }
+.custom_maxWidth                    { width:200px}
+.custom_input input                 { margin-bottom:10px }
+
+/**** Misc ****/
+.custom_dataBox       { background: none; padding: 0px 1em 1.6em 0; margin: 0px 0px 5px 0px; border:1px dotted green;
+                                      margin-left:10px; margin-top: 10px }
+
+/***** Color *****/
+.custom_inputError                    { border-color:orange}
+.custom_notification                       { padding:0 0 5px 0; color:orange }
+.custom_separator                          { //border-bottom:1px solid green }
+.custom_cardSeparator                      { border:none; border-bottom:1px dotted green; margin:5px 0 10px 0 }
+
+/***** Buttons *****/
+.custom_submitButton                  { background: url(/hpp/resource/image/submitButton.png) no-repeat top left; border:none; width:74px; height:32px; font-weight:bold; color:#333 }
+.custom_submitButton:hover            { background: url(/hpp/resource/image/submitButtonHover.png) no-repeat top left }
+
+/***** Img-Replacement *****/
+.custom_info, .custom_info em.custom_image                         { background: url(/hpp/resource/image/info_green.png) no-repeat top left; width:16px; height:16px }
+.custom_selectionSlider, .custom_selectionSlider em.custom_image   { background: url(/hpp/resource/image/slider_green.png) no-repeat top left; width:15px; height:15px }
+.custom_visaImg, .custom_visaImg em.custom_image                   { background: url(/hpp/resource/image/visa.gif) no-repeat top left}
+.custom_masterImg, .custom_masterImg em.custom_image       { background: url(/hpp/resource/image/master.gif) no-repeat top left}
+.custom_amexImg, .custom_amexImg em.custom_image                   { background: url(/hpp/resource/image/amex.gif) no-repeat top left}
+.custom_soloImg, .custom_soloImg em.custom_image                   { background: url(/hpp/resource/image/solo.gif) no-repeat top left}
+.custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(/hpp/resource/image/maestro.gif) no-repeat top left}
+
+/***** Tooltip ****/
+.custom_tooltip                            { border: 1px solid green; background-color: yellow }
+
+/***** JS/CSS Interaction *****/
+.custom_showInputInfo                          { width:1px }
+.custom_activateFieldValidation                { width:1px }
+.custom_showTooltip                            { width:1px }
+.custom_choosePaymentSelection                 { width:2px }
+
+/****** Dialog ******/
+.custom_ui-dialog                      { padding-bottom:25px; padding-right:0px } 
+.custom_ui-icon-closethick             { background: url(/hpp/resource/image/close.gif) no-repeat top left; padding:5px }
+.custom_ui-icon-gripsmall-diagonal-se  { background: url(/hpp/resource/image/resize.gif) no-repeat top left }
+.custom_ui-dialog-content              { padding: 0.5em 1em 0.3em }
+.custom_ui-dialog .custom_ui-dialog-titlebar  { border-bottom:1px solid green; margin-bottom:10px; background:#ccc }
+
+/*****DropDown*****/
+.custom_brandDropDownContainer         { background:white; border:1px solid green }
+.custom_dropDownItem                   { border-bottom:1px dotted green}
+.custom_dropDownItemHover              { background: lightgreen}         
+.custom_brandDropDownCurrentSelected   { font-weight:bold;}
+.custom_brandDropDownSelector          { }
+.custom_brandDropDownSelectorIcon      { }
+.custom_dropDownItemClose              { padding:14px 6px 0px 0px }
+.custom_dropDownItemCloseIcon          { }
+.custom_brandDropDownCurrentSelectedContainer  { border:1px solid #ddd }
