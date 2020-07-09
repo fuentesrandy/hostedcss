@@ -44,6 +44,14 @@ h2{
 .custom_brandInputContainer {
      margin-left: 0 !important; 
 }
+
+.default_paySelection{
+	margin-bottom:0px !important;
+}
+.default_orderAmount.custom_orderAmount span{
+	display:none;
+	
+}
 /***** Format *****/
 .custom_input         { width:98.0%;  }
 .custom_label   { color: #333 }
