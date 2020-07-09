@@ -9,6 +9,10 @@
     text-align: left;
     background-color: #fff;
 }
+.grid_4.custom_labelColumn {
+    /* width: 100%; */
+    width: auto;
+}
 .dataBox {
     padding: 0px 0em 1.6em 0;
     margin: 0px 0px 5px 0px;
@@ -29,8 +33,16 @@ h1, h2, h3 {
 }
 
 h2{
-	font-size: 1.2125rem;
+	font-size: 1.2rem;
 	
+}
+
+.brandContainer {
+	backgroud-image:none !important;
+	
+}
+.custom_brandInputContainer {
+     margin-left: 0 !important; 
 }
 /***** Format *****/
 .custom_input         { width:98.0%;  }
