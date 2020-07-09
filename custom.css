@@ -2,7 +2,7 @@
 * {
     margin: 0;
     font-family: Avenir Light,Arial,sans-serif;
-    font-size: 15;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.38889;
     color: #333;
@@ -18,15 +18,19 @@
 .container_12.clearfix {
     max-width: 333px;
     margin: auto;
-
     padding: 10px;
-	    box-shadow: 0 0 20px rgba(194,202,202,.6);
+	box-shadow: 0 0 20px rgba(194,202,202,.6);
 }
 
 h1, h2, h3 {
-	font-size: 1.2em;
-	   text-transform: uppercase;
-    color: #4f81bd;
+	
+	text-transform: uppercase;
+	color: #4f81bd;
+}
+
+h2{
+	font-size: 1.2125rem;
+	
 }
 /***** Format *****/
 .custom_input         { width:98.0%;  }
@@ -95,7 +99,7 @@ color: #fff;
 .custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(https://test.ppipe.net/hpp/resource/image/maestro.gif) no-repeat top left}
 
 /***** Tooltip ****/
-.custom_tooltip                            { border: 1px solid green; background-color: yellow }
+.custom_tooltip                            { border: 1px solid black; background-color: black; color:white }
 
 /****** Dialog ******/
 .custom_ui-dialog                      { padding-bottom:25px; padding-right:0px } 
@@ -106,8 +110,8 @@ color: #fff;
 
 /*labels*/
 .custom_label{
-	    font-size: 15;
-    font-weight: 400;
+	    font-size: 15px !important;
+	font-weight: 400!important;
 	
 }
 /*****DropDown*****/
