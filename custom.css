@@ -13,18 +13,27 @@
     /* width: 100%; */
     width: auto;
 }
-.dataBox {
-    padding: 0px 0em 1.6em 0;
-    margin: 0px 0px 5px 0px;
+.dataBox, .custom_paymentButtons {
+    /*padding: 0px 0em 1.6em 0;*/
+	margin: 0px 0px 5px 0px;
 	background-color: #fff !important;
 	background-image:none;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(194,202,202,.6);
+	max-width: 333px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 .container_12.clearfix {
-    max-width: 333px;
-    margin: auto;
 	margin-top: 25px;
+	margin-bottom: 25px;
+   /* max-width: 333px;
+    margin: auto;
+	
     padding: 10px;
-	box-shadow: 0 0 20px rgba(194,202,202,.6);
+	box-shadow: 0 0 20px rgba(194,202,202,.6);*/
 }
 
 h1, h2, h3 {
@@ -59,7 +68,7 @@ h2{
 /*.custom_customerDetails { display:none }*/
 .custom_payment                     {  }
 .custom_paySelection .custom_input  { width:56.333%; }
-.custom_maxWidth                    { width:200px}
+.custom_maxWidth                    { width:100%}
 .custom_input input                 { margin-bottom:10px }
 .custom_brandInputContainer         { margin-left:33.333%}
 
@@ -149,6 +158,12 @@ div#paySelectionControl {
 }
 #paySelection > p.grid_4.custom_labelColumn {
 	width:100%
+}
+
+div#paymentButtons {
+    float: none;
+    display: block;
+	overflow: auto;
 }
 /* activate drop down instead of slider */
 .custom_choosePaymentSelection         { width:3px }  /* 1: slider, 2: DropDown, 3: Simple Html DropDown*/
