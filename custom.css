@@ -68,7 +68,7 @@ h2{
 /*.custom_customerDetails { display:none }*/
 .custom_payment                     {  }
 .custom_paySelection .custom_input  { width:56.333%; }
-.custom_maxWidth                    { width:100%}
+.custom_maxWidth                    {}
 .custom_input input                 { margin-bottom:10px }
 .custom_brandInputContainer         { margin-left:33.333%}
 
