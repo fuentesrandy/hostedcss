@@ -9,3 +9,162 @@
     text-align: left;
     background-color: #fff;
 }
+.grid_4.custom_labelColumn {
+    /* width: 100%; */
+    width: auto;
+}
+.dataBox, .custom_paymentButtons {
+    /*padding: 0px 0em 1.6em 0;*/
+	margin: 0px 0px 5px 0px;
+	background-color: #fff !important;
+	background-image:none;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(194,202,202,.6);
+	max-width: 333px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.container_12.clearfix {
+	margin-top: 25px;
+	margin-bottom: 25px;
+   /* max-width: 333px;
+    margin: auto;
+	
+    padding: 10px;
+	box-shadow: 0 0 20px rgba(194,202,202,.6);*/
+}
+
+h1, h2, h3 {
+	
+	text-transform: uppercase;
+	color: #4f81bd;
+}
+
+h2{
+	font-size: 1.2rem;
+	
+}
+
+.brandContainer {
+	backgroud-image:none !important;
+	
+}
+.custom_brandInputContainer {
+     margin-left: 0 !important; 
+}
+
+.default_paySelection{
+	margin-bottom:0px !important;
+}
+.default_orderAmount.custom_orderAmount span{
+	display:none;
+	
+}
+/***** Format *****/
+.custom_input         { width:98.0%;  }
+.custom_label   { color: #333 }
+/*.custom_customerDetails { display:none }*/
+.custom_payment                     {  }
+.custom_paySelection .custom_input  { width:56.333%; }
+.custom_maxWidth                    {}
+.custom_input input                 { margin-bottom:10px }
+.custom_brandInputContainer         { margin-left:33.333%}
+
+
+/***** Color *****/
+.custom_body                            { background: transparent }
+.custom_inputError                    { border-color:orange}
+.custom_notification                       { padding:0 0 5px 0; color:orange }
+.custom_brandSelectionSlider               { border-bottom:1px solid #333; padding-bottom:21px; }
+.custom_brandSelectionSliderLine            {border:none}
+.custom_cardSeparator                      { border:none; border-bottom:1px dotted #333; margin:5px 0 10px 0 }
+
+/***** Buttons *****/
+#submitButton, input.submitButton, .custom_submitButton  {
+	    background-image: none !important;
+      float:left;
+color: #fff !important;
+    background-color: #4f81bd !important;
+    border-color: #4f81bd !important;
+    display: inline-block !important;
+    font-family: Avenir Medium!important;
+    /* font-weight: 400 !important; */
+    /* color: #333; */
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: initial;
+    border: 1.5px solid transparent;
+    /* padding: .5rem 1.25rem; */
+    /* font-size: .875rem; */
+    line-height: 1.38889;
+    border-radius: 4px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.custom_submitButton:hover            { 
+color: #fff;
+    background-color: #5b9bd5;
+    border-color: #5b9bd5;
+ }
+
+/***** Img-Replacement *****/
+/*
+.custom_info, .custom_info em.custom_image                         { background: url(https://test.ppipe.net/hpp/resource/image/info_brown.png) no-repeat top left; width:16px; height:16px }
+.custom_selectionSlider, .custom_selectionSlider em.custom_image   { background: url(https://test.ppipe.net/hpp/resource/image/tree.png) no-repeat top left; width:20px; height:18px }
+.custom_visaImg, .custom_visaImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/visa.gif) no-repeat top left}
+.custom_masterImg, .custom_masterImg em.custom_image       { background: url(https://test.ppipe.net/hpp/resource/image/master.gif) no-repeat top left}
+.custom_amexImg, .custom_amexImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/amex.gif) no-repeat top left}
+.custom_soloImg, .custom_soloImg em.custom_image                   { background: url(https://test.ppipe.net/hpp/resource/image/solo.gif) no-repeat top left}
+.custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(https://test.ppipe.net/hpp/resource/image/maestro.gif) no-repeat top left}
+*/
+/***** Tooltip ****/
+.custom_tooltip                            { border: 1px solid black; background-color: black; color:white }
+
+/****** Dialog ******/
+.custom_ui-dialog                      { padding:0px !important} 
+.custom_ui-icon-closethick             { background: url(https://test.ppipe.net/hpp/resource/image/close.gif) no-repeat top left; padding:5px }
+.custom_ui-icon-gripsmall-diagonal-se  { background: url(https://test.ppipe.net/hpp/resource/image/resize.gif) no-repeat top left }
+.custom_ui-dialog-content              { padding: 0.5em 1em 0.3em }
+.custom_ui-dialog .ui-dialog-titlebar  { border-bottom:1px solid #ccc;border-radius: 0;}
+.ui-dialog .ui-dialog-content > p{ padding: 0.5em 1em 0.3em }
+/*labels*/
+.custom_label{
+	    font-size: 15px !important;
+	font-weight: 400!important;
+	
+}
+/*****DropDown*****/
+/*
+.custom_brandDropDownContainer         { background:white; border:1px solid green }
+.custom_dropDownItem                   { border-bottom:1px dotted green}
+.custom_dropDownItemHover              { background: lightgreen}         
+.custom_brandDropDownCurrentSelected   { font-weight:bold;}
+.custom_brandDropDownSelector          { }
+.custom_brandDropDownSelectorIcon      { }
+.custom_dropDownItemClose              { padding:14px 6px 0px 0px }
+.custom_dropDownItemCloseIcon          { }
+.custom_brandDropDownCurrentSelectedContainer  { border:1px solid #ddd }
+*/
+div#paySelectionControl {
+    margin-top: 10px;
+}
+#paySelection > p.grid_4.custom_labelColumn {
+	width:100%
+}
+
+div#paymentButtons {
+    float: none;
+    display: block;
+	overflow: auto;
+}
+/* activate drop down instead of slider */
+.custom_choosePaymentSelection         { width:3px }  /* 1: slider, 2: DropDown, 3: Simple Html DropDown*/
+
