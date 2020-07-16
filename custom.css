@@ -62,6 +62,9 @@ h2{
 	display:none;
 	
 }
+#contactDetails{
+	display:none
+}
 /***** Format *****/
 .custom_input         { width:98.0%;  }
 .custom_label   { color: #333 }
