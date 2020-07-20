@@ -134,7 +134,7 @@ color: #fff;
 .custom_maestroImg, .custom_maestroImg em.custom_image               { background: url(https://test.ppipe.net/hpp/resource/image/maestro.gif) no-repeat top left}
 */
 /***** Tooltip ****/
-.custom_tooltip                            { border: 1px solid black; background-color: black; color:white }
+.custom_tooltip                            { border: 1px solid black; background-color: white !important; color:white }
 
 /****** Dialog ******/
 .custom_ui-dialog                      { padding:0px !important} 
