@@ -65,6 +65,11 @@ h2{
 #contactDetails{
 	display:none
 }
+
+.userInformation{
+	display:none
+	
+}
 /***** Format *****/
 .custom_input         { width:98.0%;  }
 .custom_label   { color: #333 }
