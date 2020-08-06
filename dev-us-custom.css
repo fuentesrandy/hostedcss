@@ -93,11 +93,14 @@ body {
     background-image: none;
     padding: 10px;
     box-shadow: 0 0 20px rgba(194,202,202,.6);
-    max-width: 333px;
+    max-width: 335px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+#theForm {
+    max-width: 333px;
 }
 
 #hpsNumberRow {
