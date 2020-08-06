@@ -100,8 +100,12 @@ body {
     margin-bottom: 25px;
 }
 
-
-
-table.mainTable {
+#hpsNumberRow {
+    float: none !important;
+}
+div#hpsCVV2Row {
+    float: left;
+}
+    table .mainTable {
     margin: auto;
 }
